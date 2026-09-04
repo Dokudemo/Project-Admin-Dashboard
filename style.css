@@ -1,0 +1,34 @@
+:root {
+    --main-color: blue;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 120vh;
+    width: auto;
+    display: grid;
+    grid-template: 0.4fr 2fr/ 1fr 3fr;
+    grid-template-areas: 
+        "sidebar header"
+        "sidebar main-content";
+}
+
+.sidebar {
+    outline: 1px solid rebeccapurple;
+    grid-area: sidebar;
+}
+
+.header {
+    outline: 1px solid red;
+    grid-area: header;
+}
+
+.main-content {
+    outline: 1px solid pink;
+    grid-area: main-content;
+}
