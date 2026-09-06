@@ -1,7 +1,7 @@
 # Project-Admin-Dashboard
 
 ## Live Demo
-[View the live project] https://dokudemo.github.io/Project-Sign-up-Form/
+[View the live project] https://dokudemo.github.io/Project-Admin-Dashboard/
 
 ## About the Project
 
